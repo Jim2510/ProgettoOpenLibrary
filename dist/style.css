@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@500&display=swap');
+
+/* Reset dei margini e dei padding */
+  html, body {
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Stile generale per il corpo della pagina */
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #000000;
+    text-align: center;
+  }
+  
+  /* Stile per l'header */
+  h1 {
+    background-color: #4aaa43;
+    color: #fff;
+    padding: 20px;
+    margin: 30px 30px 20px 30px;
+    font-family: 'Oswald', sans-serif;
+    font-size: 70px;
+    text-shadow: 1px 2px 2px #000000;
+    border-radius: 15px;
+  }
+  
+/* Stile per l'input e il pulsante di ricerca */
+#search-input {
+  width: 80%;
+  padding: 5px;
+  margin: 20px auto;
+  display: block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 20px;
+  text-align: center;
+}
+
+#search-button {
+  background-color: #4aaa43;
+  color: #fff;
+  border: none;
+  padding: 16px;
+  margin: 20px auto;
+  display: block;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 18px;
+  transition: ease-in 0.2s;
+  border-radius: 15px;
+  text-shadow: 1px 2px 2px #000000;
+}
+
+  
+  #search-button:hover {
+    background-color: #65e25c;
+  }
+  
+  /* Stile per il contenitore dei risultati */
+  #result-container {
+    margin: 20px auto;
+    max-width: 800px;
+    padding: 20px;
+    border-radius: 4px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    color: #000000;
+  }
+  
+  /* Stile per il singolo libro */
+  .book {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 4px;
+  }
+  
+  .book h2 {
+    font-size: 20px;
+    margin: 0;
+  }
+  
+  .book p {
+    margin: 5px 0;
+  }
+
+  @media (max-width: 660px) {
+    h1 {
+      /* Cambia la grandezza del font per schermi più piccoli */
+      font-size: 40px;
+    }
+  }
+  
